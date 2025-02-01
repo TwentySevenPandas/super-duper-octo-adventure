@@ -171,7 +171,7 @@ Similar to how the `look up multiple records' resource was created
 <img src="https://live.staticflickr.com/65535/54300218420_b2010768cb.jpg" width="500" height="115" />
 
 9. Select the `survey_id` **Client state parameter** you created earlier, click the little arrow next to it (the pill should be copied into the box above), then click apply  
-<img src="https://live.staticflickr.com/65535/54298919692_e52f00ab49.jpg" width="500" height="188" alt=""/>
+<img src="https://live.staticflickr.com/65535/54298919692_e52f00ab49.jpg" width="500" height="188" />
 
 To test goto preview in the top right hand side of UI builder, pick a survey and click submit. If you check the table you created you should see a new record 
 
@@ -206,8 +206,7 @@ function handler({api, event, helpers, imports}) {
 4. Under the *Events* tab on the pop-out click *Add event mapping*
 5. Choose *Operation Succeeded* then click continue in the bottom right hand corner of the pop-out
 6. Scroll down to find `store_task_number` **Client Script** under the *Client Scripts** section
-
-<img src="https://live.staticflickr.com/65535/54298919692_e52f00ab49.jpg" width="500" height="188"/>
+<img src="https://live.staticflickr.com/65535/54300049714_74a09527d7.jpg" width="393" height="487" alt="add client script"/>
 7. add a new **Rich text component** from the **Component tree**
 8. Bind the `task_number` **Client state parameter** to the **Rich Text Component**
 <img src="https://live.staticflickr.com/65535/54299824451_870b02b884_n.jpg" width="319" height="235" alt="bind to html"/>
